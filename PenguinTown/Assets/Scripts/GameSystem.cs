@@ -123,6 +123,7 @@ public class GameSystem : MonoBehaviour
     }
 
     public void SpawnNewIceSculpture() {
+
         maxHealth += maxHealth * healthRate;
         maxReward += maxReward * rewardRate;
 

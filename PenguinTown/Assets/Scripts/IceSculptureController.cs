@@ -45,7 +45,9 @@ public class IceSculptureController : MonoBehaviour
 
     /* If this Ice Sculpture is clicked on, it will run this action once */
     private void OnMouseDown() {
-        health -= gm.GetComponent<GameSystem>().GetClickDamage();
+        if(health > 0) {
+            health -= gm.GetComponent<GameSystem>().GetClickDamage();
+        }
     }
 
 }
