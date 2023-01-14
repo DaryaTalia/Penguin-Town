@@ -1,0 +1,13 @@
+Building,Type,Starting Cost,Cost Rate,Starting Damage,Damage Rate
+Small Home,Residential,,,,
+Big Home,Residential,,,,
+Apartments,Residential,,,,
+Retail,Commercial,,,,
+Offices,Commercial,,,,
+Hotels,Commercial,,,,
+Warehouse,Industrial,,,,
+Power Distribution Center,Industrial,,,,
+Farm,Industrial,,,,
+Park,Other,,,,
+School,Other,,,,
+Recreation Center,Other,,,,
