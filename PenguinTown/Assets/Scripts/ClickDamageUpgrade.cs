@@ -28,6 +28,7 @@ public class ClickDamageUpgrade : MonoBehaviour
         
     }
 
+    //Essentially BuyUpgrade()
     private void OnMouseDown() {
         if(gm.GetComponent<GameSystem>().GetFunds() >= cost) {
             gm.GetComponent<GameSystem>().UpdateClickDamage(damage);
