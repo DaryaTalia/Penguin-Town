@@ -43,6 +43,6 @@ public class UpgradesUIManager : MonoBehaviour
         costTXT.text = "Cost: $" + upgrade.GetComponent<ClickDamageUpgrade>().GetCost();
         damageRewardTXT.text = "Damage Reward: +" + upgrade.GetComponent<ClickDamageUpgrade>().GetDamageReward();
         clickDamageTXT.text = "Click Damage: " + gm.GetComponent<GameSystem>().GetClickDamage();
-        dpsTXT.text = "DPS: +" + gm.GetComponent<GameSystem>().GetDPS();
+        dpsTXT.text = "DPS: " + gm.GetComponent<GameSystem>().GetDPS();
     }
 }
